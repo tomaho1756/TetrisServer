@@ -1,0 +1,30 @@
+# Rust
+target/
+Cargo.lock
+*.rs.bk
+
+# Flutter
+App/.dart_tool/
+App/build/
+App/.flutter-plugins
+App/.flutter-plugins-dependencies
+App/.metadata
+App/.packages
+App/pubspec.lock
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
