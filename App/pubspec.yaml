@@ -1,0 +1,77 @@
+name: tetris_app
+description: Tetris Multiplayer Flutter App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Navigation
+  cupertino_icons: ^1.0.6
+  go_router: ^12.1.3
+  flutter_bloc: ^8.1.3
+  
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.2
+  web_socket_channel: ^2.4.0
+  socket_io_client: ^2.0.3+1
+  
+  # State Management
+  bloc: ^8.1.2
+  equatable: ^2.0.5
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Audio
+  audioplayers: ^5.2.1
+  
+  # Animations
+  flutter_animate: ^4.2.0+1
+  rive: ^0.12.4
+  
+  # Utils
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  uuid: ^4.1.0
+  intl: ^0.18.1
+  
+  # Device
+  vibration: ^1.8.4
+  screen_brightness: ^0.2.2+1
+  wakelock_plus: ^1.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  freezed: ^2.4.6
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/fonts/
+    - assets/rive/
+  
+  fonts:
+    - family: TetrisFont
+      fonts:
+        - asset: assets/fonts/tetris_font.ttf
+          weight: 400
+        - asset: assets/fonts/tetris_font_bold.ttf
+          weight: 700
