@@ -1,0 +1,8 @@
+# This file keeps the directory in git
+# Place your Rive animation assets here:
+# - loading_animation.riv
+# - game_over_animation.riv
+# - victory_animation.riv
+# - piece_animations.riv
+# - background_particles.riv
+# - menu_transitions.riv

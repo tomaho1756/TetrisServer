@@ -1,0 +1,41 @@
+# This file keeps the directory in git
+# Place your audio assets here:
+# 
+# sounds/
+# - piece_move.mp3
+# - piece_rotate.mp3
+# - piece_drop.mp3
+# - piece_lock.mp3
+# - line_clear_single.mp3
+# - line_clear_double.mp3
+# - line_clear_triple.mp3
+# - line_clear_tetris.mp3
+# - level_up.mp3
+# - game_over.mp3
+# - game_start.mp3
+# - game_pause.mp3
+# - game_resume.mp3
+# - hold.mp3
+# - button_click.mp3
+# - button_hover.mp3
+# - menu_open.mp3
+# - menu_close.mp3
+# - notification.mp3
+# - error.mp3
+# - success.mp3
+# - player_join.mp3
+# - player_leave.mp3
+# - match_found.mp3
+# - attack_received.mp3
+# - attack_sent.mp3
+# - countdown.mp3
+# - victory.mp3
+# - defeat.mp3
+#
+# music/
+# - main_menu.mp3
+# - game_single.mp3
+# - game_multiplayer.mp3
+# - game_intense.mp3
+# - victory.mp3
+# - game_over.mp3

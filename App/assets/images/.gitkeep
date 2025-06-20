@@ -1,0 +1,19 @@
+# This file keeps the directory in git
+# Place your image assets here:
+# - logo.png
+# - splash_screen.png
+# - tetris_blocks/
+#   - i_piece.png
+#   - j_piece.png
+#   - l_piece.png
+#   - o_piece.png
+#   - s_piece.png
+#   - t_piece.png
+#   - z_piece.png
+# - backgrounds/
+#   - game_bg.png
+#   - menu_bg.png
+# - icons/
+#   - app_icon.png
+#   - settings_icon.png
+#   - profile_icon.png
